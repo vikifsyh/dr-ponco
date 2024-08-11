@@ -15,10 +15,10 @@ const Footer = () => {
               <Icon name="pick" />
             </span>
             <p className="text-gray-800 text-lg font-medium leading-relaxed mt-10">
-              Bersama-Sama, Kita Dapat Mewujudkan Visi Kesehatan Yang Inklusif
-              Dan Berkelanjutan Untuk Seluruh Rakyat Indonesia. Mari Kita
-              Melangkah Menuju Masa Depan Yang Lebih Sehat Dan Sejahtera,
-              Sejalan Dengan Semangat Kepemimpinan Presiden Prabowo: Bersama
+              Bersama-sama, kita dapat mewujudkan visi kesehatan yang inklusif
+              dan berkelanjutan untuk seluruh rakyat Indonesia. Mari kita
+              melangkah menuju masa depan yang lebih sehat dan sejahtera,
+              sejalan dengan semangat kepemimpinan Presiden Prabowo: Bersama
               Indonesia Maju Menuju Indonesia Emas 2045.
             </p>
           </div>

@@ -232,14 +232,19 @@ export default function Plan() {
                     <h3 className="text-base md:text-2xl font-bold text-neutral">
                       {program.title}
                     </h3>
-                    <ol className="list-decimal list-inside mt-4">
-                      {program.details.map((detail) => (
-                        <li
-                          key={detail}
-                          className="text-xs md:text-lg text-neutral"
-                        >
-                          {detail}
-                        </li>
+                    <ol className="mt-4">
+                      {program.details.map((detail, index) => (
+                        <div key={index} className="flex">
+                          <span className="mr-1 text-neutral">{`${
+                            index + 1
+                          }.`}</span>
+                          <p
+                            className="text-xs md:text-lg text-neutral"
+                            style={{ textAlign: "justify" }}
+                          >
+                            {detail}
+                          </p>
+                        </div>
                       ))}
                     </ol>
                   </div>
