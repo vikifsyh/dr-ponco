@@ -235,7 +235,7 @@ export default function Plan() {
                     <ol className="mt-4">
                       {program.details.map((detail, index) => (
                         <div key={index} className="flex">
-                          <span className="mr-1 text-neutral">{`${
+                          <span className="mr-1 text-neutral text-xs md:text-lg">{`${
                             index + 1
                           }.`}</span>
                           <p
